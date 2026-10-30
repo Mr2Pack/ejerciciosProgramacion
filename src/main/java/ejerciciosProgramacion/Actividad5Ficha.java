@@ -25,7 +25,7 @@ public class Actividad5Ficha {
             suma += arreglo[i];
         }
         
-        suma = suma/10;
+        suma = suma/20;
         System.out.println("Promedio:" + " " + suma);
     }
 }
