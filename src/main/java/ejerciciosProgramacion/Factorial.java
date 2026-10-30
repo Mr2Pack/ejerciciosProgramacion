@@ -18,7 +18,7 @@ public class Factorial {
         System.out.println("Introduce un número:");
         int num = sc.nextInt();
         
-        for(int i = 1; i <= num; i++) {
+        for(int i = num; i > 0; i--) {
             factorial = factorial * i;
         }
         
